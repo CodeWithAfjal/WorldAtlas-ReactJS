@@ -1,0 +1,89 @@
+[
+    {
+      "id": 1,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1393409038,
+      "interestingFact": "India is the world's largest democracy."
+    },
+    {
+      "id": 2,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 213993437,
+      "interestingFact": "Home to the Amazon Rainforest."
+    },
+    {
+      "id": 3,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125960000,
+      "interestingFact": "Japan has more than 6,800 islands."
+    },
+    {
+      "id": 4,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 38008005,
+      "interestingFact": "Canada has the longest coastline in the world."
+    },
+    {
+      "id": 5,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 25687041,
+      "interestingFact": "Australia is the only continent covered by a single country."
+    },
+    {
+      "id": 6,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83149300,
+      "interestingFact": "Germany is known for its contributions to classical music."
+    },
+    {
+      "id": 7,
+      "countryName": "Egypt",
+      "capital": "Cairo",
+      "population": 109262178,
+      "interestingFact": "Egypt is home to one of the Seven Wonders of the Ancient World—the Great Pyramid of Giza."
+    },
+    {
+      "id": 8,
+      "countryName": "South Africa",
+      "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein ",
+      "population": 60042000,
+      "interestingFact": "South Africa has three capital cities.."
+    },
+    {
+      "id": 9,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": 67081000,
+      "interestingFact": "France is the most visited country in the world by international tourists."
+    },
+    {
+      "id": 10,
+      "countryName": "Uganda",
+      "capital": "Kampala",
+      "population": 8050000,
+      "interestingFact": "Uagnada is the birthplace of chocolate, which was first consumed by ancient Mesoamerican cultures."
+    },
+    {
+      "id": 10,
+  "countryName": "Luxembourg",
+  "capital": "Luxembourg City",
+  "population": 660800,
+  "interestingFact": "Luxembourg is one of the world's few remaining Grand Duchies and has three official languages: Luxembourgish and German."
+    },
+    {
+     
+  "id": 9,
+  "countryName": "Romania",
+  "capital": "Bucharest",
+  "population": 19120000,
+  "interestingFact": "Romania, it  is the home to the world's heaviest building—the Palace of the Parliament in Bucharest."
+}
+    
+  ]
+  
