@@ -1,5 +1,5 @@
 import React from 'react'
-import "./App.css"
+import './index.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Home from './Pages/Home'
 import About from './Pages/About'
@@ -31,7 +31,7 @@ const router=createBrowserRouter([
     },
     {
       path:"Country/:countryName",
-      element: <SearchFilter/>,
+      element: <CountryDetails/>,
     },
     {
       path:"Country",

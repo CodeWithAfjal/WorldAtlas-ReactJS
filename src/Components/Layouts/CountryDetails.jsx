@@ -3,9 +3,9 @@ import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndData } from "../../API/postApi";
 import { Loader } from "../UI/Loader";
 
-export const SearchFilter = () => {
+const CountryDetails = () => {
    const params = useParams();// Line 7
-    const countryName = params.name; 
+    const countryName = params.countryName;
 
 
   const [isPending, startTransition] = useTransition();
@@ -91,4 +91,4 @@ export const SearchFilter = () => {
     </section>
   );
 };
-export default SearchFilter
+ export default CountryDetails;
