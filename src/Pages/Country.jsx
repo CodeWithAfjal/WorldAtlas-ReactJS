@@ -1,7 +1,7 @@
 import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../API/postApi";
 import { Loader } from "../Components/UI/Loader";
-import CountryCard from "../Components/Layouts/Countrycard";
+import CountryCard from "../Components/Layouts/CountryCard";
 
 import { SearchFilter } from "../Components/UI/SearchFilter";
 
