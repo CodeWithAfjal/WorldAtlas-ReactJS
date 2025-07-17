@@ -160,7 +160,75 @@ nav ul{
     line-height: 1.15;
     letter-spacing: -1px;
     
+
+    
 }
+/* //Mobile Menu toggle// */
+/* Mobile toggle menu hidden on desktop */
+.ham-menu {
+  display: none;
+  font-size: 2.4rem;
+  color: white;
+  cursor: pointer;
+  justify-self: end;
+}
+
+/* Desktop view */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3.2rem;
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .ham-menu {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #202020;
+    position: absolute;
+    top: 9rem; /* Adjust to your header height */
+    right: 0;
+    width: 100%;
+    padding: 2rem 0;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .mobile-nav li a {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
+  .hero-section .container {
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center; /* Center horizontally */
+  text-align: center;  /* Center text inside */
+}
+  .container .banner-image {
+    width: 90%;
+    margin-left: 6%; /* Shifts image to the right */
+  }
+  header {
+  height: 6rem; /* Decreased height for mobile */
+}
+
+.navbar-grid {
+  height: 6rem; /* Adjust navbar inner grid height too */
+  padding: 0 1rem;
+}
+}
+
 .hero-image{
     display: flex;
     justify-content: space-between;
